@@ -14,6 +14,7 @@ echo "Make sure your device is connected"
 
 
 ############################################################################################
+MY_HOME=$PWD
 
 echo $pwd
 
