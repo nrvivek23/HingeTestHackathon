@@ -9,7 +9,6 @@ public class MatchMe extends UiAutomatorTestCase{
 	Hooks hooks = new Hooks();
 	
 	public void testLaunc() throws UiObjectNotFoundException{
-		hooks.underAppsGoTo("Hinge");
+		hooks.selectMatchListItem(0);
 	}
-
 }

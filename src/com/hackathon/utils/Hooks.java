@@ -23,4 +23,14 @@ public class Hooks extends UiAutomatorTestCase{
 		appsView.getChildByText(new UiSelector().className("android.widget.TextView"), iconText).clickAndWaitForNewWindow();
 
 	}
+
+	public void selectMatchListItem(int number) throws UiObjectNotFoundException{
+		
+		int matchCount = StringsAndObjects.matchList.getChildCount();
+		UiObject matchitem = StringsAndObjects.matchList.getChildByInstance(new UiSelector().className("android.widget.FrameLayout"), number);
+		
+		matchitem.click();
+		sleep(3);
+	}
+	
 }

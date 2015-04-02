@@ -22,7 +22,7 @@ cd ${ANDROID_HOME}
 
 cd tools/
 
-./android create uitest-project -n skSampleTest -t "android-21" -p ${MY_HOME}
+./android create uitest-project -n skSampleTest -t "android-19" -p ${MY_HOME}
 
 cd ${MY_HOME}
 
